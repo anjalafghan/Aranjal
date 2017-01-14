@@ -10,7 +10,7 @@ body, html {
 }
 
 .navbar-custom, body {
-    background-color: #000
+    background-color: #0d0c0c;
 }
 
 .intro, body, html {
@@ -161,6 +161,7 @@ a:focus, a:hover {
     font-size: 18px
 }
 
+
 @media (min-width:768px) {
     .intro {
         height: 100%;
@@ -238,7 +239,31 @@ a:focus, a:hover {
 .content-section {
     padding-top: 100px
 }
+.about{
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 320px;
+}
+.about h2{
+    text-align: center;
+}
+.indian{
+    background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
 
+    padding: 100px;
+}
+.mughalai{
+    background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
+    padding: 100px;
+}
+.coastal{
+    background: url(../img/intro-bg.jpg) bottom center no-repeat #000;
+    padding: 100px;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
 .download-section {
     width: 100%;
     padding: 50px 0;
